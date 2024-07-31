@@ -7,11 +7,11 @@
     <link href="styles.css" rel="stylesheet">
 </head>
 <body>
-    <p>Hello word!!</p>
-    <p>Hello word2</p>
+<p id="data"></p>
 <script>
-    let now = new Date();
-    alert(now);
+    let data = document.querySelector("data");
+    data.innerHTML = new Date();
+   
 </script>
 </body>
 </html>

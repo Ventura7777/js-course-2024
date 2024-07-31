@@ -7,11 +7,16 @@
     <link href="styles.css" rel="stylesheet">
 </head>
 <body>
-    <p>Hello word!!</p>
-    <p>Hello word2</p>
+    <p id="output">Hello</p>
+<button id="btn">Скажі привіт!</button>
 <script>
-    let now = new Date();
-    alert(now);
+    document.querySelector("#btn").onclick = function(){
+let output = document.querySelector("#output");
+output.innerHTML = "Привет, Анна";
+    }
+    
+   
+   
 </script>
 </body>
 </html>
